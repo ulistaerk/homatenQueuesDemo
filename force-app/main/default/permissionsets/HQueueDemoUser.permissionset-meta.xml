@@ -21,7 +21,7 @@
         <name>HQueueQueue__mdt</name>
     </customMetadataTypeAccesses>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>test</label>
+    <label>HQueueDemoUser</label>
     <tabSettings>
         <tab>HQueueDashboard</tab>
         <visibility>Visible</visibility>
