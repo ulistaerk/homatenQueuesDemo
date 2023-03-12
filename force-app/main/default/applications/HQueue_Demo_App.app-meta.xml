@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <label>HQueue Demo App</label>
+    <navType>Console</navType>
+    <tabs>HQueueDashboard</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>HQueue_Demo_App_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>HQueueDashboard</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
