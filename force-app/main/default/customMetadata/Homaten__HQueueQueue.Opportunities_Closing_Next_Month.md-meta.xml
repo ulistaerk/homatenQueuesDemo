@@ -3,27 +3,27 @@
     <label>Opportunities Closing Next Month</label>
     <protected>false</protected>
     <values>
-        <field>Auto_Column_Widths_Enabled__c</field>
+        <field>Homaten__Auto_Column_Widths_Enabled__c</field>
         <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
-        <field>HQueue_Group__c</field>
+        <field>Homaten__HQueue_Group__c</field>
         <value xsi:type="xsd:string">Sales</value>
     </values>
     <values>
-        <field>Icon_Name__c</field>
+        <field>Homaten__Icon_Name__c</field>
         <value xsi:type="xsd:string">standard:search</value>
     </values>
     <values>
-        <field>Order__c</field>
+        <field>Homaten__Order__c</field>
         <value xsi:type="xsd:double">10.0</value>
     </values>
     <values>
-        <field>Override_Label__c</field>
+        <field>Homaten__Override_Label__c</field>
         <value xsi:nil="true"/>
     </values>
     <values>
-        <field>Queue_SOQL__c</field>
+        <field>Homaten__Queue_SOQL__c</field>
         <value xsi:type="xsd:string">SELECT Name, Account.Name, Amount, CloseDate, toLabel(StageName), Owner.Alias, Id, CreatedDate, LastModifiedDate, SystemModstamp, Account.Id, AccountId, Owner.Id, OwnerId FROM Opportunity WHERE IsClosed = false AND CloseDate = NEXT_MONTH ORDER BY Name ASC NULLS FIRST, Id ASC NULLS FIRST</value>
     </values>
 </CustomMetadata>

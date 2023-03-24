@@ -3,27 +3,27 @@
     <label>My Open Cases</label>
     <protected>false</protected>
     <values>
-        <field>Auto_Column_Widths_Enabled__c</field>
+        <field>Homaten__Auto_Column_Widths_Enabled__c</field>
         <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
-        <field>HQueue_Group__c</field>
+        <field>Homaten__HQueue_Group__c</field>
         <value xsi:type="xsd:string">Service</value>
     </values>
     <values>
-        <field>Icon_Name__c</field>
+        <field>Homaten__Icon_Name__c</field>
         <value xsi:type="xsd:string">standard:search</value>
     </values>
     <values>
-        <field>Order__c</field>
+        <field>Homaten__Order__c</field>
         <value xsi:type="xsd:double">10.0</value>
     </values>
     <values>
-        <field>Override_Label__c</field>
+        <field>Homaten__Override_Label__c</field>
         <value xsi:nil="true"/>
     </values>
     <values>
-        <field>Queue_SOQL__c</field>
+        <field>Homaten__Queue_SOQL__c</field>
         <value xsi:type="xsd:string">SELECT CaseNumber, Contact.Name, Subject, toLabel(Status), toLabel(Priority), CreatedDate, Owner.NameOrAlias, Id, LastModifiedDate, SystemModstamp, Contact.Id, ContactId, Owner.Id, OwnerId FROM Case USING SCOPE mine WHERE IsClosed = false ORDER BY CaseNumber ASC NULLS FIRST, Id ASC NULLS FIRST</value>
     </values>
 </CustomMetadata>

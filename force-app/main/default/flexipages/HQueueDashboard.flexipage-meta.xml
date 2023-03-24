@@ -7,8 +7,8 @@
                     <name>configView</name>
                     <value>admin</value>
                 </componentInstanceProperties>
-                <componentName>HQueueDasboard</componentName>
-                <identifier>c_HQueueDasboard</identifier>
+                <componentName>Homaten:HQueueDasboard</componentName>
+                <identifier>Homaten_HQueueDasboard</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

@@ -3,27 +3,27 @@
     <label>Overdue Tasks</label>
     <protected>false</protected>
     <values>
-        <field>Auto_Column_Widths_Enabled__c</field>
+        <field>Homaten__Auto_Column_Widths_Enabled__c</field>
         <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
-        <field>HQueue_Group__c</field>
+        <field>Homaten__HQueue_Group__c</field>
         <value xsi:type="xsd:string">Tasks</value>
     </values>
     <values>
-        <field>Icon_Name__c</field>
+        <field>Homaten__Icon_Name__c</field>
         <value xsi:type="xsd:string">standard:search</value>
     </values>
     <values>
-        <field>Order__c</field>
+        <field>Homaten__Order__c</field>
         <value xsi:type="xsd:double">10.0</value>
     </values>
     <values>
-        <field>Override_Label__c</field>
+        <field>Homaten__Override_Label__c</field>
         <value xsi:nil="true"/>
     </values>
     <values>
-        <field>Queue_SOQL__c</field>
+        <field>Homaten__Queue_SOQL__c</field>
         <value xsi:type="xsd:string">SELECT toLabel(Subject), Who.Name, What.Name, ActivityDate, toLabel(Status), toLabel(Priority), Owner.NameOrAlias, LastModifiedDate, LastModifiedBy.Alias, Id, CreatedDate, SystemModstamp, Who.Id, WhoId, What.Id, WhatId, Owner.Id, OwnerId, LastModifiedBy.Id, LastModifiedById FROM Task USING SCOPE mine WHERE IsClosed = false AND IsRecurrence = false AND ActivityDate &lt; TODAY ORDER BY ActivityDate ASC NULLS FIRST, Id ASC NULLS FIRST</value>
     </values>
 </CustomMetadata>

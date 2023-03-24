@@ -5,20 +5,20 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>HQueueDashboardController</apexClass>
+        <apexClass>Homaten__HQueueDashboardController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
-        <name>HQueueField__mdt</name>
+        <name>Homaten__HQueueField__mdt</name>
     </customMetadataTypeAccesses>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
-        <name>HQueueGroup__mdt</name>
+        <name>Homaten__HQueueGroup__mdt</name>
     </customMetadataTypeAccesses>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
-        <name>HQueueQueue__mdt</name>
+        <name>Homaten__HQueueQueue__mdt</name>
     </customMetadataTypeAccesses>
     <hasActivationRequired>false</hasActivationRequired>
     <label>HQueueDemoUser</label>

@@ -3,15 +3,15 @@
     <label>Tasks</label>
     <protected>false</protected>
     <values>
-        <field>Order__c</field>
+        <field>Homaten__Order__c</field>
         <value xsi:type="xsd:double">10.0</value>
     </values>
     <values>
-        <field>Override_Label__c</field>
+        <field>Homaten__Override_Label__c</field>
         <value xsi:nil="true"/>
     </values>
     <values>
-        <field>Restrict_Visibility__c</field>
+        <field>Homaten__Restrict_Visibility__c</field>
         <value xsi:type="xsd:string">Admin</value>
     </values>
 </CustomMetadata>
