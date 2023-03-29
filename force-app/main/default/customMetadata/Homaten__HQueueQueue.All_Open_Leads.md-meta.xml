@@ -24,6 +24,10 @@
     </values>
     <values>
         <field>Homaten__Queue_SOQL__c</field>
-        <value xsi:type="xsd:string">SELECT Name, Company, State, Email, toLabel(Status), CreatedDate, Owner.NameOrAlias, IsUnreadByOwner, Id, LastModifiedDate, SystemModstamp, Owner.Id, OwnerId FROM Lead WHERE IsConverted = false AND (NOT Status like &apos;%closed%&apos;) ORDER BY Name ASC NULLS FIRST, Id ASC NULLS FIRST</value>
+        <value xsi:type="xsd:string">SELECT Name, Company, State, Email, toLabel(Status), CreatedDate, Owner.NameOrAlias, IsUnreadByOwner, Id, LastModifiedDate, SystemModstamp, Owner.Id, OwnerId FROM Lead WHERE IsConverted = false AND Status = &apos;Open - Not Contacted&apos; ORDER BY Name ASC NULLS FIRST, Id ASC NULLS FIRST</value>
+    </values>
+    <values>
+        <field>Homaten__Restrict_Visibility__c</field>
+        <value xsi:nil="true"/>
     </values>
 </CustomMetadata>
